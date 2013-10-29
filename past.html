@@ -1,0 +1,49 @@
+---
+layout: default
+title: "valencia.rb - Grupo local de rubistas en Valencia"
+---
+
+    <div id="main" role="main" class="clearfix">
+
+      <h2 class="centered orange scream margin_top_0">Meetups anteriores</h2>
+
+      {% for post in site.posts offset:1 %}
+
+      {% assign date = post.date %}
+      <h3 class="centered past">{% include localized_datetime.liquid %}</h3>
+
+      {% if post.special %}
+
+      <section class="centered margin_bottom_20">
+        {{ post.special | markdownify }}
+      </section>
+
+      {% endif %}
+
+      <div class="clearfix">
+        <section class="content single">
+          <h2>{{ post.title }}</h2>
+          {{ post.content }}
+        </section>
+      </div>
+
+      {% if post.notes %}
+
+      <section class="full_box">
+        {{ post.notes | markdownify }}
+      </section>
+
+      {% endif %}
+
+      {% if post.sponsor %}
+
+      <section class="full_box centered sponsor home">
+        <h3>Patrocinador</h3>
+        <a class="ir block {{ post.sponsor['name'] }}" target="_blank" href="{{ post.sponsor['url'] }}" title="{{ post.sponsor['title'] }}">{{ post.sponsor['title'] }}</a>
+      </section>
+
+      {% endif %}
+
+      {% endfor %}
+
+    </div>

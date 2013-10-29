@@ -1,0 +1,57 @@
+---
+layout: default
+title: "valencia.rb - Grupo local de rubistas en Valencia"
+---
+
+    <div id="main" role="main" class="clearfix">
+
+      <p class="eyelet margin_top_0">
+        Valencia.rb es el grupo local de usuarios de Ruby en Valencia. Nos encontramos regularmente al menos una vez al mes
+        en el espacio de coworking
+        <a target="_blank"  href="http://www.workether.com"  title="Workether / Inspiración Colectiva y Coworking en Valencia">
+          Workether</a>,
+        en calle Serpis 3 (Valencia),
+        alrededor de un pequeño picoteo gentileza de
+        <a target="_blank" href="http://www.rankia.com" title="Rankia: Comunidad financiera. Foros y blogs sobre inversión, bolsa y tu banco">
+          Rankia</a>.
+      </p>
+
+      {% assign post = site.posts.first %}
+
+      {% assign date = post.date %}
+      <h2 class="centered orange scream">Próximo meetup: <span>{% include localized_datetime.liquid %}</span></h2>
+
+      <div class="clearfix">
+        <section class="content single {% if post.undefined %}undefined{% endif %}">
+          <h2>{{ post.title }}</h2>
+          {{ post.content }}
+        </section>
+      </div>
+
+      {% if post.sponsor %}
+
+      <section class="full_box centered sponsor home">
+        <h3>Patrocinador</h3>
+
+        <a class="ir block {{ post.sponsor['name'] }}" target="_blank"
+          href="{{ post.sponsor['url'] }}" title="{{ post.sponsor['text'] }}">{{ post.sponsor['text'] }}</a>
+      </section>
+
+      {% endif %}
+
+      {% if post.reservation_url %}
+
+      <p class="centered margin_bottom_20 clearfix block">
+        <a class="orange_button" href="{{ post.reservation_url }}" target="_blank">Asistiré a Valencia.rb</a>
+        <small class="block small_caption">Por cuestiones de aforo nos gustaría saber el numero de asistentes.</small>
+      </p>
+
+      {% endif %}
+
+      <h2 class="centered orange scream margin_bottom_10">Localización</span></h2>
+
+      <section class="full_box home">
+        <iframe width="620" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;q=Workether,+Calle+del+Serpis,+Valencia&amp;ie=UTF8&amp;hq=Workether,&amp;hnear=Calle+del+Serpis,+Valencia&amp;ll=39.476264,-0.349579&amp;spn=0.006295,0.012657&amp;iwloc=near&amp;output=embed"></iframe><br />
+      </section>
+
+    </div>

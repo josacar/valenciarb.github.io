@@ -1,0 +1,30 @@
+/* TEAM */
+
+  Coding: Carles Climent
+  Twitter: @carles_climent
+  Location: La Pobla de Vallbona, Valencia, ES
+
+  Coding: Vicente Ibañez
+  Twitter: @vibaiher
+  Location: Valencia, ES
+
+  Coding: Juan F. Perez
+  Twitter: @jguitar_
+  Location: Valencia, ES
+
+  Coding: Eduardo Sebastian
+  Twitter: @esebastian
+  Location: Valencia, ES
+
+/* THANKS */
+
+  Original site idea and coding: Tony Camaiani
+  Site: http://tony.camaiani.it
+  Twitter: https://twitter.com/tonycamaiani
+  Location: Valencia, ES
+
+/* SITE */
+
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, normalize.css
+  Software: Jekyll
