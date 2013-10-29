@@ -1,5 +1,5 @@
 ---
-date: 2013-10-16 19:00h
+date: 2013-10-16 19:00
 title: "Rails 4: Patterns"
 ---
 
