@@ -40,12 +40,16 @@ header {
 
 header h1 {
   width: 300px;
-  font-size: 46px;
-  line-height: 46px;
+  font-size: 55px;
+  line-height: 55px;
   color: #fff;
   margin: 10px auto 5px;
-  /* background: url(../img/logo_small.png) top center no-repeat; */
-  /* padding: 56px 0 0; */
+  background: url(../img/logo_small.png) top center no-repeat;
+  padding: 80px 0 0;
+}
+
+header h1 strong {
+  color: #222;
 }
 
 header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decoration: none; }
@@ -56,8 +60,9 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
     color: #fff;
     text-transform: none;
     font-weight: 400;
-    margin: 0 0 0 170px;
+    margin: 0 0 0 130px;
     display: block;
+    text-align: right;
   }
 
   header h2 {
@@ -69,8 +74,8 @@ header h1 a, header h1 a:hover, header h1 a:visited { color: #fff; text-decorati
     margin: 30px 0 30px;
   }
 
-  header h2 span {
-    display: block;
+  header h2 img {
+    padding: 15px;
   }
 
   nav {
@@ -231,6 +236,20 @@ a.orange_button:hover {
       display: block;
     }
 
+  a.github {
+    background: url(../img/GitHub-Mark-32px.png) no-repeat top left;
+    width: 32px;
+    height: 32px;
+    padding-left: 50px;
+  }
+
+  a.twitter {
+    background: url(../img/twitter-bird-light-bgs.png) no-repeat top left;
+    width: 32px;
+    height: 32px;
+    padding-left: 50px;
+  }
+
   a.rankia {
     background: url(../img/rankia_logo_small.png) no-repeat top left;
     width: 170px;
@@ -248,36 +267,6 @@ a.orange_button:hover {
 
   a.sponsor_image {
     margin: 20px auto 30px;
-  }
-
-  a.qikker {
-    background: url(../img/qikker_logo_medium.png) no-repeat top left;
-    width: 155px;
-    height: 45px;
-  }
-
-  a.ombushop {
-    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
-    width: 155px;
-    height: 45px;
-  }
-
-a.turia {
-    background: url(../img/logo_turia_150.png) no-repeat top left;
-    width: 150px;
-    height: 125px;
-  }
-
-a.onbile {
-    background: url(../img/onbile_logo.png) no-repeat top left;
-    width: 155px;
-    height: 69px;
-  }
-
-a.camiseta {
-    background: url(../img/ymicamiseta_logo_150.png) no-repeat top left;
-    width: 150px;
-    height: 98px;
   }
 
 /* ===== media with different viewport classes ============================================ */
@@ -330,8 +319,8 @@ a.camiseta {
     text-align: center;
     font-size: 72px;
     line-height: 72px;
-    /* background: url(../img/logo.png) top center no-repeat; */
-    /* padding: 90px 0 0; */
+    background: url(../img/logo.png) top center no-repeat;
+    padding: 90px 0 0;
     width: 460px;
     margin: 10px auto 5px;
   }
@@ -339,7 +328,6 @@ a.camiseta {
     header h1 span{
       font-size: 30px;
       line-height: 30px;
-      text-align: right;
       color: #fff;
       text-transform: none;
       font-weight: 400;
@@ -350,10 +338,6 @@ a.camiseta {
       header h2 {
         font-size: 28px;
         line-height: 30px;
-      }
-
-      header h2 span {
-        display: inline;
       }
 
       nav li a,
@@ -485,18 +469,6 @@ a.camiseta {
       float: left;      
     }
 
-    a.qikker {
-      background: url(../img/qikker_logo_big.png) no-repeat top left;
-      width: 130px;
-      height: 38px;
-    }
-
-    a.ombushop {
-      background: url(../img/ombushop_logo_big.png) no-repeat top left;
-      width: 130px;
-      height: 38px;
-    }
-
 } /* min-width: 768px */
 
 /* Used to alter styles for screens at least 1024px wide. */
@@ -516,15 +488,14 @@ a.camiseta {
 
     header h2 {
       width: 325px;
-      text-align: right;
       font-size: 30px;
       line-height: 34px;
       margin: 15px 0 52px;
       float: right;
     }
 
-      header h2 span {
-        display: block;
+      header h2 img {
+        float: right;
       }
 
     nav {
@@ -649,18 +620,6 @@ a.camiseta {
   a.sponsor_image {
     margin: 25px 5px 0 0;
     float: left;
-  }
-
-  a.qikker {
-    background: url(../img/qikker_logo_medium.png) no-repeat top left;
-    width: 155px;
-    height: 45px;
-  }
-
-  a.ombushop {
-    background: url(../img/ombushop_logo_medium.png) no-repeat top left;
-    width: 155px;
-    height: 45px;
   }
 
 } /* min-width: 1024px */
