@@ -36,7 +36,7 @@ header {
   padding-bottom: 5px;
 }
 
-#main, footer, hgroup {
+#main, footer, div.hgroup {
   padding: 10px 20px;
 }
 
@@ -476,7 +476,7 @@ a.orange_button:hover {
 /* Used to alter styles for screens at least 1024px wide. */
 @media only screen and (min-width: 1024px) {
 
-  #main, footer, hgroup {
+  #main, footer, div.hgroup {
     width: 960px;
     margin: 0 auto;
     padding: 10px 20px;
