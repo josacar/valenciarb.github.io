@@ -9,6 +9,6 @@ En el encuentro de hoy, [@josacar](http://twitter.com/josacar) nos ofrecerá una
 
 Ya con Chef empezaremos obteniendo manualmente todas las dependencias y alojándolas localmente, para pasar luego a un sistema de gestion de dependencias tipo Bundler, donde éstas se declaran y se resuelven automáticamente.
 
-Al final de la charla habremos comprobado como podemos obtener el mismo resultado, con una misma receta de provisionamiento, a partir de dos imágenes de sistemas diferentes (Debian y CentOS) y veremos como empaquetar el resultado para su posterior distribución.
+Al final de la charla habremos comprobado como podemos obtener el mismo resultado, con una misma receta de provisionamiento, a partir de dos imágenes de sistemas diferentes ([Debian](https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box) y [CentOS](http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210-nocm.box)) y veremos como empaquetar el resultado para su posterior distribución.
 
 La charla está planteada como un taller interactivo, así que no olvidéis vuestros portátiles y traer descargadas de casa las imágenes que utilizaremos en la charla.
