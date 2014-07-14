@@ -252,19 +252,19 @@ a.orange_button:hover {
     margin: 0 auto;
   }
 
-  a.rankia {
-    background: url(../img/rankia_logo_small.png) no-repeat top left;
-    width: 170px;
-    height: 67px;
-    margin-top: 22px;
+  a.turia {
+    background: url(../img/turia_logo_small.jpg) no-repeat top left;
+    width: 212px;
+    height: 177px;
     margin: 0 auto;
   }
 
-  a.workether {
-    background: url(../img/workether_logo_small.png) no-repeat top left;
-    width: 139px;
-    height: 150px;
+  a.geekshubs {
+    background: url(../img/geekshubs_logo_small.png) no-repeat top left;
+    width: 112px;
+    height: 146px;
     margin: 0 auto;
+    margin-top: 12px;
   }
 
   a.sponsor_image {
@@ -451,24 +451,25 @@ a.orange_button:hover {
           margin: 0 4px 5px 0;
         }
 
-    a.rankia {
-      background: url(../img/rankia_logo_big.png) no-repeat top left;
-      width: 111px;
-      height: 44px;
-      margin-top: 18px;
+    a.turia {
+      background: url(../img/turia_logo_medium.jpg) no-repeat top left;
+      width: 128px;
+      height: 107px;
+      margin-top: -7px;
       float: right;
     }
 
-    a.workether {
-      background: url(../img/workether_logo_big.png) no-repeat top left;
-      width: 80px;
-      height: 86px;
+    a.geekshubs {
+      background: url(../img/geekshubs_logo_medium.png) no-repeat top left;
+      width: 74px;
+      height: 96px;
+      margin-top: 0px;
       float: right;
     }
 
     a.sponsor_image {
       margin: 15px 5px 0 0;
-      float: left;      
+      float: left;
     }
 
 } /* min-width: 768px */
@@ -592,18 +593,19 @@ a.orange_button:hover {
       margin: 0 10px 5px 0;
     }
 
-  a.rankia {
-    background: url(../img/rankia_logo_medium.png) no-repeat top left;
-    width: 128px;
-    height: 51px;
-    margin-top: 22px;
+  a.turia {
+    background: url(../img/turia_logo_big.jpg) no-repeat top left;
+    width: 148px;
+    height: 123px;
+    margin-top: -9px;
     float: right;
   }
 
-  a.workether {
-    background: url(../img/workether_logo_medium.png) no-repeat top left;
-    width: 93px;
-    height: 100px;
+  a.geekshubs {
+    background: url(../img/geekshubs_logo_big.png) no-repeat top left;
+    width: 78px;
+    height: 101px;
+    margin-top: 0px;
     float: right;
   }
 
