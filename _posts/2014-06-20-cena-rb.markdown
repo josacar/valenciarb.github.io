@@ -1,12 +1,12 @@
 ---
-date: 2014-06-20 21:00
-title: "Cena.rb"
+date: 2014-08-19 19:00
+title: "Birrote.rb"
 ---
 
-Este mes celebramos la llegada del verano y cambiamos los aperitivos por una cena en condiciones.
+Es agosto, y hace calor. Mucha gente está de vacaciones pero, los que no, hemos pensado en que estaría bien juntarnos a la fresca con unas cervecitas bien frías.
 
-Nos reuniremos en el restaurante [_La Cepa Vieja_](http://goo.gl/maps/RQ6QY) donde nos agasajarán con excelentes viandas y refrigerios, y a un precio asombrosamente competitivo.
+La idea es pasar un rato distendido hablando de nuestras cosas, sobre Ruby y sobre lo que vaya surgiendo.
 
-Por supuesto, además de comer y beber hablaremos de Ruby y de lo que surja.
+Nos veremos en la terraza de [_Los Gatos_](http://www.gatoscafepub.com/), en Xúquer, a la hora de siempre. Después, si apetece, podemos cambiar de sitio para continuar mientras picamos algo.
 
-Para apuntarte, sólo tienes que inscribirte en el [Doodle](http://doodle.com/aq55qw82pi6c3ada).
+¡Te esperamos!
