@@ -19,7 +19,7 @@ title: "valencia.rb - Grupo local de rubistas en Valencia"
       {% assign post = site.posts.first %}
 
       {% assign date = post.date %}
-      <h2 class="centered orange scream">Próximo meetup: <span>{% include localized_datetime.liquid %}</span></h2>
+      <h2 class="centered orange scream">Próximo meetup {% unless post.undefined %}: <span>{% include localized_datetime.liquid %}</span>{% endunless %}</h2>
 
       <div class="clearfix">
         <section class="content single {% if post.undefined %}undefined{% endif %}">
