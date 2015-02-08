@@ -252,8 +252,8 @@ a.orange_button:hover {
     margin: 0 auto;
   }
 
-  a.turia {
-    background: url(../img/turia_logo_small.jpg) no-repeat top left;
+  a.iukanet {
+    background: url(../img/iukanet_logo_small.png) no-repeat top left;
     width: 212px;
     height: 177px;
     margin: 0 auto;
@@ -451,8 +451,8 @@ a.orange_button:hover {
           margin: 0 4px 5px 0;
         }
 
-    a.turia {
-      background: url(../img/turia_logo_medium.jpg) no-repeat top left;
+    a.iukanet {
+      background: url(../img/iukanet_logo_medium.png) no-repeat top left;
       width: 128px;
       height: 107px;
       margin-top: -7px;
@@ -593,8 +593,8 @@ a.orange_button:hover {
       margin: 0 10px 5px 0;
     }
 
-  a.turia {
-    background: url(../img/turia_logo_big.jpg) no-repeat top left;
+  a.iukanet {
+    background: url(../img/iukanet_logo_big.png) no-repeat top left;
     width: 148px;
     height: 123px;
     margin-top: -9px;
