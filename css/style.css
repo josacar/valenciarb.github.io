@@ -614,6 +614,14 @@ a.orange_button:hover {
     float: left;
   }
 
+  a.peertransfer {
+    background: url(../img/peertransfer_logo.png) no-repeat top left;
+    width: 265px;
+    height: 36px;
+    margin-top: 0px;
+    float: right;
+  }
+
 } /* min-width: 1024px */
 
 /* ===== print styles ========================================================== */
