@@ -14,3 +14,5 @@ En el encuentro de este mes repasaremos todas estas novedades con la ayuda de un
 Xavier [(@fxn)](http://twitter.com/fxn) es miembro del _core team_ de Rails, y una de las figuras más relevantes en la escena Ruby española.
 
 Agradecemos a [peerTransfer](http://www.peertransfer.com) el apoyo económico para hacer posible su visita.
+
+[Streaming »](https://www.youtube.com/watch?v=VPv68wK6nVc)
