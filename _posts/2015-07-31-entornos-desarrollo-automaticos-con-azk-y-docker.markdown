@@ -1,5 +1,5 @@
 ---
-date: 2015-07-24 19:00
+date: 2015-07-31 19:00
 title: "Entornos de desarrollo automáticos. Azk y Docker al rescate"
 ---
 
