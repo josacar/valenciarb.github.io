@@ -9,4 +9,4 @@ Azk nos ofrece una capa de abstracción sobre Docker que facilita la instalació
 
 Veremos como crear un proyecto en Rails desde cero con Azk y descubriremos todas las herramientas y ventajas que nos ofrece. También mostraremos como Azk puede integrarse fácilmente en grandes proyectos ya existentes que están pleno desarrollo.
 
-Al finalizar la charla, iremos a cenar a la fresca.
+Al finalizar la charla, iremos a cenar al restaurante [Il Rosso](https://goo.gl/NBGppZ).
