@@ -1,3 +1,2 @@
 name: Valencia.rb
-markdown: redcarpet
-highlighter: pygments
+exclude: [vendor]
