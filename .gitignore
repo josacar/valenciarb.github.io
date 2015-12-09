@@ -1,4 +1,6 @@
-_site/
+/_site/
 .ruby-version
 .ruby-gemset
-pictures/
+/.bundle/
+/vendor/bundle/
+/pictures/
