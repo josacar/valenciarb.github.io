@@ -254,8 +254,8 @@ a.orange_button:hover {
 
   a.iukanet {
     background: url(../img/iukanet_logo_small.png) no-repeat top left;
-    width: 212px;
-    height: 177px;
+    width: 148px;
+    height: 123px;
     margin: 0 auto;
   }
 
@@ -269,6 +269,14 @@ a.orange_button:hover {
 
   a.sponsor_image {
     margin: 20px auto 30px;
+  }
+
+  a.flywire {
+    background: url(../img/flywire_logo.png) no-repeat top left;
+    width: 132px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 9px;
   }
 
 /* ===== media with different viewport classes ============================================ */
@@ -472,6 +480,14 @@ a.orange_button:hover {
       float: left;
     }
 
+    a.flywire {
+      background: url(../img/flywire_logo.png) no-repeat top left;
+      width: 132px;
+      height: 48px;
+      margin-top: 0px;
+      float: right;
+    }
+
 } /* min-width: 768px */
 
 /* Used to alter styles for screens at least 1024px wide. */
@@ -595,8 +611,8 @@ a.orange_button:hover {
 
   a.iukanet {
     background: url(../img/iukanet_logo_big.png) no-repeat top left;
-    width: 148px;
-    height: 123px;
+    width: 128px;
+    height: 107px;
     margin-top: -9px;
     float: right;
   }
@@ -626,7 +642,7 @@ a.orange_button:hover {
     background: url(../img/flywire_logo.png) no-repeat top left;
     width: 132px;
     height: 48px;
-    margin-top: 0px;
+    margin-top: 9px;
     float: right;
   }
 
