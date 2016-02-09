@@ -10,3 +10,5 @@ Quique Torres ([@TorresQuique](https://twitter.com/TorresQuique)) por [Barkibu](
 Pero hay otro punto de vista... ¿Cómo se ven las cosas desde el otro lado? ¿Qué pasa por la mente de los candidatos? ¿Cómo perciben ellos este proceso?
 
 Juan ([@jguitar_](https://twitter.com/jguitar_)), Vicente ([@vibaiher](https://twitter.com/vibaiher)) y Andrea ([@AlonsoJonnyjava](https://twitter.com/AlonsoJonnyjava)) se han ofrecido, además, a contarnos su experiencia desde el otro lado de la barrera.
+
+[Streaming »](https://www.youtube.com/watch?v=u-BneQ0XVRA)
