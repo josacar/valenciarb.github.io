@@ -13,7 +13,7 @@ title: "Valencia.rb - Grupo local de usuarios de Ruby en Valencia"
       {% assign post = site.posts.first %}
 
       {% assign date = post.date %}
-      <h2 class="centered orange scream">Próximo meetup{% unless post.undefined %}:<time datetime="{{post.date | date_to_xmlschema }}"><span> {% include localized_datetime.liquid %}</time></span>{% endunless %}</h2>
+      <h2 class="centered orange scream">Próximo meetup{% unless post.undefined %}:<time datetime="{{post.date | date_to_xmlschema }}"><span> {% include localized_datetime.liquid %}</span></time>{% endunless %}</h2>
       <div class="clearfix">
         <section class="content single {% if post.undefined %}undefined{% endif %}">
           <h2>{{ post.title }}</h2>
