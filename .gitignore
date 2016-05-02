@@ -4,3 +4,4 @@
 /.bundle/
 /vendor/bundle/
 /pictures/
+.DS_Store
