@@ -9,4 +9,5 @@ Sustituir, reescribir, refactorizar componentes legacy es duro. Es esta charla v
 
 [Miguel Angel](https://twitter.com/elmendalerenda) es programador en [Flywire](https://www.flywire.com/)
 
-
+[Slides »](https://github.com/elmendalerenda/valenciarb_panamapapers)  
+[Streaming »](https://www.youtube.com/watch?v=WP7RgijIUHo)
