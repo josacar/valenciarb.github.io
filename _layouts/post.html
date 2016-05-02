@@ -12,8 +12,8 @@
   <link rel="apple-touch-icon" sizes="120x120" href="/res/apple-touch-icon-120x120.png" />
   <link rel="apple-touch-icon" sizes="144x144" href="/res/apple-touch-icon-144x144.png" />
   <link rel="apple-touch-icon" sizes="152x152" href="/res/apple-touch-icon-152x152.png" />
-  <title>{{ page.title }}</title>
-  <meta name="description" content="valencia.rb es el grupo de usuarios de Ruby en Valencia" />
+  <title>{{ page.title }} - Valencia.rb</title>
+  <meta name="description" content="{{ page.content | strip_html | truncatewords: 50 }}" />
   <meta name="author" content="@tonycamaiani, @Carles_Climent, @vibaiher, @jguitar_, @esebastian" />
   <meta name="viewport" content="width=device-width" />
   <link href='https://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css' />
@@ -61,7 +61,18 @@
       </div>
     </header>
 
-    {{ content }}
+    <div id="main" role="main" class="clearfix">
+      <h2 class="centered orange scream margin_top_0">{{ page.title }}</h2>
+
+      {% assign date = page.date %}
+      <h3 class="centered past">{% include localized_datetime.liquid %}</h3>
+
+      <div class="clearfix">
+        <section class="content single">
+          {{ content }}
+        </section>
+      </div>
+    </div>
 
     <footer class="clearfix">
      <section class="first">

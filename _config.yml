@@ -1,3 +1,11 @@
 name: Valencia.rb
 exclude: [vendor]
 future: true
+permalink: date
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
