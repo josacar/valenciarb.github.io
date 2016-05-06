@@ -8,6 +8,6 @@ Durante un tiempo todo es rápido y bello: hay unas reglas de negocio sencillas,
 
 Pero el día a día en una startup, o en cualquier negocio, nos trae cambios (benditos cambios) para poner a prueba esa organización de ficheros tan sencilla.
 
-Aquí comienza la historia de cómo empezamos a movernos a una capa de servicios, y más tarde seguiríamos dándole forma para separar el código en distintos contextos aplicando DDD.
+Esta es la historia de cómo empezamos a movernos a una capa de servicios y cómo continuamos dándole forma más tarde para separar el código en distintos contextos aplicando DDD.
 
-Será una charla donde [@jguitar_](https://twitter.com/jguitar_) nos muestre mucho código, explique las decisiones y cambios que ha ido sufriendo su sistema ([Barkibu](http://www.barkibu.com/)), y donde participar para preguntar dudas o plantear otros caminos a seguir.
+Será una charla donde [@jguitar_](https://twitter.com/jguitar_) nos va a mostrar mucho código, nos va a explicar las decisiones que han ido tomando en ([Barkibu](http://www.barkibu.com/)) y también los cambios que ha ido sufriendo su sistema; y donde todos vamos a poder participar para preguntar dudas o plantear otros caminos a seguir.
